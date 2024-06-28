@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Un límite que debemos conocer | Límites Trigonométricos </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="." />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" /><script>
+window.MathJax = {
+  tex: {
+    tags: "ams",
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script">
+</script></head>
+<body class="exe-web-site" id="exe-node-18"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header"  style="background-image: url(banner2.png); background-repeat: repeat-x;"><div id="headerContent">Límites Trigonométricos</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="resea_histrica.html" class="daddy">Reseña Histórica</a>
+   <ul class="other-section">
+      <li><a href="cuestionario.html" class="no-ch">Cuestionario</a></li>
+   </ul>
+   </li>
+   <li><a href="conocimientos_previos.html" class="daddy">Conocimientos Previos</a>
+   <ul class="other-section">
+      <li><a href="grfica_de_seno_y_coseno.html" class="no-ch">Gráfica de seno y coseno</a></li>
+      <li><a href="otras_funciones_trigonomtricas.html" class="no-ch">Otras funciones trigonométricas</a></li>
+      <li><a href="identidades_trigonomtricas.html" class="no-ch">Identidades trigonométricas</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="mediacin_pedaggica.html" class="current-page-parent daddy">Mediación Pedagógica</a>
+   <ul>
+      <li><a href="actividad.html" class="no-ch">Actividad</a></li>
+      <li><a href="teorema_del_encaje_intercalacin.html" class="no-ch">Teorema del encaje (intercalación)</a></li>
+      <li id="active"><a href="un_lmite_que_debemos_conocer.html" class="active no-ch">Un límite que debemos conocer</a></li>
+      <li><a href="ejemplos.html" class="no-ch">Ejemplos</a></li>
+   </ul>
+   </li>
+   <li><a href="evaluacin.html" class="no-ch">Evaluación</a></li>
+   <li><a href="crditos.html" class="no-ch">Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="teorema_del_encaje_intercalacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Un límite que debemos conocer</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id10">
+<div class="iDevice emphasis0" >
+<div id="ta10_112_2" class="block iDevice_content">
+<div class="exe-text"><p><span style="font-size: 13pt;">Considere la función $f(x)=\dfrac{\text{sen}(x)}{x}$. Note que $f$ no está definida en $x=0$, sin embargo si analizamos la función cuando $x\rightarrow 0$, podemos notar que la función tiende a 1. Observe algunos valores numéricos de la función en la siguiente tabla:</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p><span style="font-size: 13pt;">$$\begin{array}{|l|l|l|l|l|l|l|}\hline -0.001 &amp; -0.01  &amp; -0.1 &amp; x\rightarrow 0&amp; 0.1 &amp; 0.01&amp; -0.01\\ \hline<br />0.999999 &amp; 0.999983  &amp; 0.998334 &amp; f(x)&amp; 0.998334&amp; 0.999983 &amp; 0.999999\\ \hline \end{array}$$</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p style="text-align: left;"><span style="font-size: 13pt;">Si se consideran los resultados mostrados en la tabla, se puede conjeturar que el límite de la función $f(x)=\dfrac{\text{sen}(x)}{x}$ cuando esta tiende a cero es 1. En la figura 5, se aprecia la gráfica de la función.</span></p>
+<p style="text-align: left;"><span style="font-size: 13pt;"> </span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;"><img src="figura7.jpg" width="344" height="168" /></span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;">Figura 5. $f(x)=\dfrac{\text{sen}(x)}{x}$</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p><span style="font-size: 13pt;">Ahora utilizaremos el teorema de la compresión para demostrar que efectivamente $\displaystyle{\lim_{x \to 0}\dfrac{\text{sen}(x)}{x}}=1$.</span></p>
+<p><span style="font-size: 13pt;">Considere un círculo de radio 1 y el ángulo central  como se muestra en la figura 6a) y la región $OPR$ un sector del círulo con ángulo central $\alpha$ tal que  $0&lt;\alpha &lt;\dfrac{\pi}{2}$.</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p><span style="font-size: 13pt;">Note que, área de $\vartriangle OPR\leq$ área de sector $\vartriangle OPR \leq$ área de $\vartriangle OQR$</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 180.5px;"><span style="font-size: 13pt;"><img src="figura8(1).jpg" width="250" height="196" style="display: block; margin-left: auto; margin-right: auto;" /></span></td>
+<td style="width: 180.5px;"><span style="font-size: 13pt;"><img src="figura6a.jpg" alt="" width="172" height="142" style="font-family: 'Encode Sans', Arial, Helvetica, sans-serif; display: block; margin-left: auto; margin-right: auto;" /></span></td>
+<td style="width: 180.5px;"><span style="font-size: 13pt;"><img src="figura6b.jpg" alt="" width="167" height="143" style="font-family: 'Encode Sans', Arial, Helvetica, sans-serif; display: block; margin-left: auto; margin-right: auto;" /></span></td>
+<td style="width: 180.5px;"><span style="font-size: 13pt;"><img src="figura6c.jpg" alt="" width="162" height="143" style="font-family: 'Encode Sans', Arial, Helvetica, sans-serif; display: block; margin-left: auto; margin-right: auto;" /></span></td>
+</tr>
+<tr>
+<td style="width: 180.5px; text-align: center;"><span style="font-size: 13pt;">Figura 6a). Circunferencia unitaria</span></td>
+<td style="width: 180.5px; text-align: center;"><span style="font-size: 13pt;"><span style="font-family: 'Encode Sans', Arial, Helvetica, sans-serif;">Figura </span>6b). Triángulo OPR</span></td>
+<td style="width: 180.5px; text-align: center;"><span style="font-family: 'Encode Sans', Arial, Helvetica, sans-serif; font-size: 13pt;">Figura 6c). Sector OPR</span></td>
+<td style="width: 180.5px; text-align: center;"><span style="font-family: 'Encode Sans', Arial, Helvetica, sans-serif; font-size: 13pt;">Figura 6d). Triángulo rectángulo OQR</span></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p><span style="font-size: 13pt;">De acuerdo con la figura 6b), la altura de $\vartriangle OPR$ es $\overline{OP}\cdot \text{sen}(\alpha)=1\cdot \text{sen}(\alpha)=\text{sen}(\alpha)$,  luego</span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;"><strong>área de $\vartriangle OPR=\dfrac{1}{2}\overline{OR}\cdot altura=\dfrac{1}{2}\cdot 1 \cdot \text{sen}(\alpha) =\dfrac{1}{2}\text{sen}(\alpha) $   </strong>                      (1)</span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;"> </span></p>
+<p><span style="font-size: 13pt;">Y de acuerdo con la figura 6d) $\tan(\alpha)=\dfrac{\overline{QR}}{\overline{OR}} \Rightarrow \overline{QR} = \tan(\alpha)$ de forma tal que:</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;"><strong> área $\vartriangle OQR=\dfrac{1}{2}\overline{OR}\cdot \overline{QR}=\dfrac{1}{2}\cdot 1\cdot \tan(\alpha)=\dfrac{1}{2} \tan(\alpha)$.</strong>                              (2)</span></p>
+<p><span style="font-size: 13pt;">Finalmete área de sector $OPR$:</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;"><strong>$OPR=\dfrac{1}{2}\cdot 1^2\cdot \alpha=\dfrac{1}{2}\alpha$     </strong>                                                                                  (3)</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"> </span></p>
+<p><span style="font-size: 13pt;">Por (1), (2) y (3), se tiene que</span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;">$\dfrac{1}{2}\text{sen}(\alpha)&lt;\dfrac{1}{2}\alpha&lt;\dfrac{1}{2}\tan(\alpha)$</span></p>
+<p style="text-align: left;"><span style="font-size: 13pt;">Luego, multiplicando por $\displaystyle \frac{2}{\text{sen} \alpha}$ se obtiene</span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;">$1&lt;\dfrac{\alpha}{\text{sen}(\alpha)}&lt;\dfrac{1}{\cos(\alpha)}$</span></p>
+<p style="text-align: left;"><span style="font-size: 13pt;">Y finalmente, invirtiendo las desigualdades se tiene</span></p>
+<p style="text-align: center;"><span style="font-size: 13pt;">$\cos(\alpha)&lt;\dfrac{\text{sen}(\alpha)}{\alpha}&lt;1$.</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p><span style="font-size: 13pt;">Ahora, considerando $\alpha\rightarrow 0^+$ en el último resultado, puesto que $\dfrac{\text{sen}(\alpha)}{\alpha}$  está comprimida entre 1 y $\cos(\alpha)$, el cual tiende a 1:</span></p>
+<p><span style="font-size: 13pt;"> </span></p>
+<p><span style="font-size: 13pt;">$$\displaystyle{\lim_{\alpha \to 0}\dfrac{\text{sen}(\alpha)}{\alpha}}=1$$</span></p>
+<p><span style="font-size: 13pt;">Se obtiene el mismo resultado en el caso \(-\dfrac{\pi}{2}&lt;\alpha&lt;0\) cuando \( (\alpha\rightarrow 0^-)\)</span></p>
+<p> </p>
+<p>Se invita al lector a investigar sobre la demostración del límite $\displaystyle \lim_{x\to 0} \frac{1-\cos x}{x}=0$. </p>
+<hr />
+<p></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="teorema_del_encaje_intercalacin.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplos.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_fpd_js.js"></script></body></html>
